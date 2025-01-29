@@ -3,8 +3,10 @@ programa
 	
 	funcao inicio()
 	{
+		//declarando variaveis
 		inteiro n1, n2, n3, n4, resultado
 
+		//recebendo dados
 		escreva("Entre com o Numero 1: \n")
 		leia(n1)
 		
@@ -19,8 +21,10 @@ programa
 
 		limpa()
 
+		//precessando dados
 		resultado = (n1*n1) + (n2*n2) + (n3*n3) + (n4*n4)
-
+		
+		//resultado
 		escreva("O resultado da soma dos quadrados dos numeros é : ", resultado)
 	}
 }
@@ -29,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 426; 
+ * @POSICAO-CURSOR = 422; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

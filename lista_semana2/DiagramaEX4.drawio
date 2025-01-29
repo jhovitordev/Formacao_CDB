@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
+  <diagram name="Página-1" id="KlC4-kqEoV-koS8GOxuJ">
+    <mxGraphModel dx="2415" dy="1014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qrOWgJrFOJ1LXLIsOEXd-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.499;entryY=0.225;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qrOWgJrFOJ1LXLIsOEXd-1" target="qrOWgJrFOJ1LXLIsOEXd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOWgJrFOJ1LXLIsOEXd-1" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="230" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOWgJrFOJ1LXLIsOEXd-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrOWgJrFOJ1LXLIsOEXd-2" target="qrOWgJrFOJ1LXLIsOEXd-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="390" />
+              <mxPoint x="210" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qrOWgJrFOJ1LXLIsOEXd-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;salario&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOWgJrFOJ1LXLIsOEXd-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrOWgJrFOJ1LXLIsOEXd-4" target="qrOWgJrFOJ1LXLIsOEXd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOWgJrFOJ1LXLIsOEXd-4" value="salario_bruto = salario +&amp;nbsp; (salario*0.10)" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="140" y="420" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOWgJrFOJ1LXLIsOEXd-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrOWgJrFOJ1LXLIsOEXd-6" target="qrOWgJrFOJ1LXLIsOEXd-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOWgJrFOJ1LXLIsOEXd-10" value="sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qrOWgJrFOJ1LXLIsOEXd-9">
+          <mxGeometry x="-0.1769" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qrOWgJrFOJ1LXLIsOEXd-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrOWgJrFOJ1LXLIsOEXd-6" target="qrOWgJrFOJ1LXLIsOEXd-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="573" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qrOWgJrFOJ1LXLIsOEXd-13" value="não" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qrOWgJrFOJ1LXLIsOEXd-12">
+          <mxGeometry x="-0.4298" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qrOWgJrFOJ1LXLIsOEXd-6" value="salario_bruto &amp;lt;= 1200" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="530" width="135" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOWgJrFOJ1LXLIsOEXd-8" value="pagamento = salario_bruto -(&amp;nbsp;salario_bruto * 0.15)" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="650" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOWgJrFOJ1LXLIsOEXd-11" value="pagamento = salario_bruto -(&amp;nbsp;salario_bruto * 0.20)" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="650" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOWgJrFOJ1LXLIsOEXd-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrOWgJrFOJ1LXLIsOEXd-14" target="qrOWgJrFOJ1LXLIsOEXd-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOWgJrFOJ1LXLIsOEXd-14" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" vertex="1" parent="1">
+          <mxGeometry x="185" y="740" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOWgJrFOJ1LXLIsOEXd-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qrOWgJrFOJ1LXLIsOEXd-11" target="qrOWgJrFOJ1LXLIsOEXd-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOWgJrFOJ1LXLIsOEXd-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qrOWgJrFOJ1LXLIsOEXd-8" target="qrOWgJrFOJ1LXLIsOEXd-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOWgJrFOJ1LXLIsOEXd-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrOWgJrFOJ1LXLIsOEXd-17" target="qrOWgJrFOJ1LXLIsOEXd-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOWgJrFOJ1LXLIsOEXd-17" value="pagamento" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="840" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOWgJrFOJ1LXLIsOEXd-19" value="FIM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="950" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
